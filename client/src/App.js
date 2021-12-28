@@ -2,12 +2,14 @@ import logo from './logo.svg';
 import './App.css';
 import { Fragment, useContext, useEffect } from 'react';
 import Context from "./Context/SocketContext"
+import FormTasks from "./components/Board/FormTasks"
+import BoardListContainer from './components/Board/BoardListContainer';
 
 function App() {
   const { socket } = useContext(Context)
 
   useEffect(() => {
-    socket.on(`server:catchConect`, () => { console.log("Conectado correctamente con sockets") })
+    socket.on(`connect`, (id) => { console.log(`Conectado correctamente con sockets con el id: ${id}`) })
     // socket.emit("ping")
 
   }, [])
@@ -16,20 +18,9 @@ function App() {
       <div className="container h-100">
         <div className="row h-100">
           <div className="col-md-4 my-auto">
-            <form action="" id="noteForm" className="card card-body rounded-0">
-              <h1 className="h3 mb-5">Agregar una Nota</h1>
-              <input type="text" name="title" id="title" placeholder="Agrega un titulo"
-                className="form-control rounded-0 mb-3" autoFocus />
-              <textarea name="description" id="description" cols="30" rows="2" className="form-control rounded-0 mb-3"
-                placeholder="Agregar descripcion"></textarea>
-              <button className="btn btn-dark rounded-0">Enviar</button>
-            </form>
+            <FormTasks />
           </div>
-          <div className="col-md-8 py-3">
-            <h3>Notas</h3>
-            <div id="notes"></div>
-          </div>
-
+          <BoardListContainer />
         </div>
       </div>
     </Fragment>
