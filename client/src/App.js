@@ -9,7 +9,7 @@ function App() {
   const { socket } = useContext(Context)
 
   useEffect(() => {
-    socket.on(`connect`, (id) => { console.log(`Conectado correctamente con sockets con el id: ${id}`) })
+    socket.on(`server:catchConect`, (id) => { console.log(`Conectado correctamente con sockets con el id: ${id}`) })
     // socket.emit("ping")
 
   }, [])

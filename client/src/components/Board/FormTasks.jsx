@@ -45,7 +45,7 @@ function FormTasks() {
     e.target.reset();
   };
   const onValueChange = (e) => {
-    console.log(e.target.value);
+    // console.log(e.target.value);
     setText({ ...text, [e.target.name]: e.target.value });
   };
   return (
