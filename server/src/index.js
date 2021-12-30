@@ -38,6 +38,7 @@ io.on("connection", (socket) => {
 
     const loadNotes = () => {
         TaskModel.find({}, "title description completed date").then(docs => {
+            socket.emit(`server:loadNotes`, docs)
             io.emit(`server:loadNotes`, docs)
         })
             .catch((err) => {

@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-websockets-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd server && npm start"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gregoriocarranza/Notes-React_node_mongodb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gregoriocarranza/Notes-React_node_mongodb/issues"
+  },
+  "homepage": "https://github.com/gregoriocarranza/Notes-React_node_mongodb#readme"
+}
