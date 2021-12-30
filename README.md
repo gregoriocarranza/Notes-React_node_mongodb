@@ -39,7 +39,7 @@ Mientras tanto al hacerlo en la carpeta Server nos iniciara por consola el servi
 
 ***Tanto el puerto en el backend como el EndPoint en el front end estan por defecto en el 3030 (el servidor emite por ese puerto y el cliente lo escucha), podes cambiar esto en ambos***
 
-**Server (Buscar en la carpeta src el archivo app.js) **
+**Server (Buscar en la carpeta src el archivo app.js)**
 
 **Client (Buscar en la carpeta src/Context el archivo SocketContext.jsx)**
 
