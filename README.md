@@ -44,7 +44,7 @@ Mientras tanto al hacerlo en la carpeta Server nos iniciara por consola el servi
 **Client (Buscar en la carpeta src/Context el archivo SocketContext.jsx)**
 
 
-
+**Para ver el proyecto funcionando dirihance a https://notes-6c66b.web.app/ **
 ## Autor
 
 Gregorio Carranza Torres
