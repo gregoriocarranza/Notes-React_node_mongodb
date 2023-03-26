@@ -50,3 +50,9 @@ Mientras tanto al hacerlo en la carpeta Server nos iniciara por consola el servi
 Gregorio Carranza Torres
 
 Año 2021 
+
+#Notes
+
+En este proyecto usaste MongoDb para guardar las notas yyyy usaste Babel (que todavia no entiendo como carajo hiciste) para el "frontend"
+
+Te quiero mucho, y espero que cuando leas esto en unos años seas exitoso. Espero que haya salido todo bien
