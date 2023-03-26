@@ -51,7 +51,7 @@ Gregorio Carranza Torres
 
 Año 2021 
 
-#Notes
+# Notes
 
 En este proyecto usaste MongoDb para guardar las notas yyyy usaste Babel (que todavia no entiendo como carajo hiciste) para el "frontend"
 
